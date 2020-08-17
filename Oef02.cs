@@ -57,7 +57,7 @@ namespace Klasses_recap
 
         private void numKanaal_ValueChanged(object sender, EventArgs e)
         {
-            TV.kanaalnr = Decimal.ToInt32(numKanaal.Value);
+            TV.kanaalnr = Decimal.ToInt32(Math.Round(numKanaal.Value,0));
             UpdateInfo();
         }
     }

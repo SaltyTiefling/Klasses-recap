@@ -49,7 +49,7 @@ namespace Klasses_recap
 
         private void btnRemove_Click(object sender, EventArgs e)
         {
-                rapport.rapportList[cbxVak.Text].RemoveAt(lbxPunten.SelectedIndex);
+            rapport.rapportList[cbxVak.Text].RemoveAt(lbxPunten.SelectedIndex);
             cbxVak_SelectedIndexChanged(sender, e);
         }
     }
