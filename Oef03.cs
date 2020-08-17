@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Klasses_recap
 {
-    public partial class Form1 : Form
+    public partial class Oef03 : Form
     {
-        public Form1()
+        public Oef03()
         {
             InitializeComponent();
         }
