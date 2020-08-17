@@ -84,11 +84,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Televisie.cs" />
     <EmbeddedResource Include="Main Menu.resx">
       <DependentUpon>Main Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Oef01.resx">
       <DependentUpon>Oef01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oef02.resx">
+      <DependentUpon>Oef02.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
